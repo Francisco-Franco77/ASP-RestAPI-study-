@@ -1,0 +1,6 @@
+@Playmove_HostAddress = http://localhost:5139
+
+GET {{Playmove_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
