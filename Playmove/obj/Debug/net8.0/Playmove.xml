@@ -64,6 +64,26 @@
             <response code="200">Fornecedor deletado</response>
             <response code="500">Erro ao acessar o banco de dados</response>
         </member>
+        <member name="T:Playmove.Models.Fornecedor">
+            <summary>
+            Modelo referente à tabela dbo.fornecedor
+            </summary>
+        </member>
+        <member name="P:Playmove.Models.Fornecedor.Id">
+            <summary>
+            Id (chave primária) do fornecedor
+            </summary>
+        </member>
+        <member name="P:Playmove.Models.Fornecedor.Nome">
+            <summary>
+            Nome do fornecedor
+            </summary>
+        </member>
+        <member name="P:Playmove.Models.Fornecedor.Email">
+            <summary>
+            Email do fornecedor
+            </summary>
+        </member>
         <member name="T:Playmove.Models.PlaymoveDataContext">
             <summary>
             Acesso ao contexto de dados do banco playmove
@@ -72,6 +92,11 @@
         <member name="M:Playmove.Models.PlaymoveDataContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Playmove.Models.PlaymoveDataContext})">
             <summary>
             Acesso ao contexto de dados do banco playmove
+            </summary>
+        </member>
+        <member name="P:Playmove.Models.PlaymoveDataContext.Fornecedor">
+            <summary>
+            Modelo do fornecedor
             </summary>
         </member>
     </members>
