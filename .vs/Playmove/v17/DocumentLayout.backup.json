@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|d:\\projects\\playmove\\asp-restapi-study-\\playmove\\models\\playmovedatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|solutionrelative:playmove\\models\\playmovedatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|d:\\projects\\playmove\\asp-restapi-study-\\playmove\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|solutionrelative:playmove\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|d:\\projects\\playmove\\asp-restapi-study-\\playmove\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|solutionrelative:playmove\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|d:\\projects\\playmove\\asp-restapi-study-\\playmove\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|solutionrelative:playmove\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\bin\\Debug\\net8.0\\Playmove.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Playmove\\bin\\Debug\\net8.0\\Playmove.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FornecedorController.cs",
-              "DocumentMoniker": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Controllers\\FornecedorController.cs",
-              "RelativeDocumentMoniker": "Playmove\\Controllers\\FornecedorController.cs",
-              "ToolTip": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Controllers\\FornecedorController.cs",
-              "RelativeToolTip": "Playmove\\Controllers\\FornecedorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Title": "PlaymoveDataContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Models\\PlaymoveDataContext.cs",
+              "RelativeDocumentMoniker": "Playmove\\Models\\PlaymoveDataContext.cs",
+              "ToolTip": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Models\\PlaymoveDataContext.cs",
+              "RelativeToolTip": "Playmove\\Models\\PlaymoveDataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:29:20.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Fornecedor.cs",
-              "DocumentMoniker": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Models\\Fornecedor.cs",
-              "RelativeDocumentMoniker": "Playmove\\Models\\Fornecedor.cs",
-              "ToolTip": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Models\\Fornecedor.cs",
-              "RelativeToolTip": "Playmove\\Models\\Fornecedor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:29:32.865Z",
+              "WhenOpened": "2024-10-27T14:40:55.042Z",
               "EditorCaption": ""
             },
             {
@@ -60,7 +51,33 @@
               "RelativeToolTip": "Playmove\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:22:54.78Z",
+              "WhenOpened": "2024-10-27T13:37:38.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Playmove.xml",
+              "DocumentMoniker": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\bin\\Debug\\net8.0\\Playmove.xml",
+              "RelativeDocumentMoniker": "Playmove\\bin\\Debug\\net8.0\\Playmove.xml",
+              "ToolTip": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\bin\\Debug\\net8.0\\Playmove.xml",
+              "RelativeToolTip": "Playmove\\bin\\Debug\\net8.0\\Playmove.xml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-10-27T13:25:32.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FornecedorController.cs",
+              "DocumentMoniker": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Controllers\\FornecedorController.cs",
+              "RelativeDocumentMoniker": "Playmove\\Controllers\\FornecedorController.cs",
+              "ToolTip": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Controllers\\FornecedorController.cs",
+              "RelativeToolTip": "Playmove\\Controllers\\FornecedorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:29:20.212Z",
               "EditorCaption": ""
             }
           ]

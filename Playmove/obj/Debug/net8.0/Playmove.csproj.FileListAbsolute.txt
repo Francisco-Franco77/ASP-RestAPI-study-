@@ -82,6 +82,7 @@ D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\bin\Debug\net8.0\Playmove.deps.
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\bin\Debug\net8.0\Playmove.runtimeconfig.json
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\bin\Debug\net8.0\Playmove.dll
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\bin\Debug\net8.0\Playmove.pdb
+D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\bin\Debug\net8.0\Playmove.xml
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\bin\Debug\net8.0\Azure.Core.dll
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\bin\Debug\net8.0\Azure.Identity.dll
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -150,6 +151,7 @@ D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\obj\Debug\net8.0\scopedcss\bund
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\obj\Debug\net8.0\Playmove.csproj.Up2Date
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\obj\Debug\net8.0\Playmove.dll
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\obj\Debug\net8.0\refint\Playmove.dll
+D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\obj\Debug\net8.0\Playmove.xml
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\obj\Debug\net8.0\Playmove.pdb
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\obj\Debug\net8.0\Playmove.genruntimeconfig.cache
 D:\Projects\Playmove\ASP-RestAPI-study-\Playmove\obj\Debug\net8.0\ref\Playmove.dll

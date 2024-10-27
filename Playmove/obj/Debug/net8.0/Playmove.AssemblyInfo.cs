@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Playmove")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f31127c824fd58b54df3243f9e1671f59b219c77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7931c3c09c0f55a092d93b01875127539ece4043")]
 [assembly: System.Reflection.AssemblyProductAttribute("Playmove")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Playmove")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

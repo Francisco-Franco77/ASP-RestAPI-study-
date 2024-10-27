@@ -2,10 +2,14 @@
 
 namespace Playmove.Models
 {
-    public class PlaymoveDataContext : DbContext
+    /// <summary>
+    /// Acesso ao contexto de dados do banco playmove
+    /// </summary>
+    public class PlaymoveDataContext(DbContextOptions<PlaymoveDataContext> options) : DbContext(options)
     {
-        public PlaymoveDataContext(DbContextOptions<PlaymoveDataContext> options) : base(options) { }
-
+        /// <summary>
+        /// Modelo do fornecedor
+        /// </summary>
         public DbSet<Fornecedor> Fornecedor { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Playmove.Models;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"));
+});
 builder.Configuration.SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json", optional:true, reloadOnChange: true);
 var path = builder.Configuration.GetValue<string>("DbPath");
 builder.Services.AddDbContext<PlaymoveDataContext>(opt => opt.UseSqlServer(builder.Configuration.GetValue<string>("DbPath")));

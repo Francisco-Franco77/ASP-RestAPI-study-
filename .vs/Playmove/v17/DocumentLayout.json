@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|d:\\projects\\playmove\\asp-restapi-study-\\playmove\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|solutionrelative:playmove\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|d:\\projects\\playmove\\asp-restapi-study-\\playmove\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|solutionrelative:playmove\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|d:\\projects\\playmove\\asp-restapi-study-\\playmove\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6CBC535-67DE-46B6-865B-830630257E70}|Playmove\\Playmove.csproj|solutionrelative:playmove\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FornecedorController.cs",
               "DocumentMoniker": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Controllers\\FornecedorController.cs",
               "RelativeDocumentMoniker": "Playmove\\Controllers\\FornecedorController.cs",
               "ToolTip": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Controllers\\FornecedorController.cs",
               "RelativeToolTip": "Playmove\\Controllers\\FornecedorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T19:29:20.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Fornecedor.cs",
-              "DocumentMoniker": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Models\\Fornecedor.cs",
-              "RelativeDocumentMoniker": "Playmove\\Models\\Fornecedor.cs",
-              "ToolTip": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Models\\Fornecedor.cs",
-              "RelativeToolTip": "Playmove\\Models\\Fornecedor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:29:32.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Program.cs",
-              "RelativeDocumentMoniker": "Playmove\\Program.cs",
-              "ToolTip": "D:\\Projects\\Playmove\\ASP-RestAPI-study-\\Playmove\\Program.cs",
-              "RelativeToolTip": "Playmove\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T19:22:54.78Z",
               "EditorCaption": ""
             }
           ]
