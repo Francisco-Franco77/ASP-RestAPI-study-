@@ -95,7 +95,7 @@ namespace Playmove.Controllers
             }
             if (result <= 0)
             {
-                return Problem(detail: "não foi possível adicionar registro ao banco", statusCode: 500);
+                return Problem(detail: "não foi possível adicionar fornecedor ao banco", statusCode: 500);
             }
             return Ok("novo fornecedor: " + name + " foi adicionado ao banco");
         }
@@ -107,10 +107,10 @@ namespace Playmove.Controllers
         /// <param name="name">Nome a ser atualizado</param>
         /// <param name="email">Email a ser atualizado</param>
         /// <returns>Confirmação que o fornecedor foi atualizado</returns>
-        /// <response code="200">Fornecedor atualizado</response>
+        /// <response code="204">Fornecedor atualizado</response>
         /// <response code="500">Erro ao acessar o banco de dados</response>
         [HttpPut]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [Route("fornecedores/{id}")]
         public IActionResult PutFornecedor(int id, string name="", string email="")
@@ -119,6 +119,8 @@ namespace Playmove.Controllers
             try
             {
                 Fornecedor fornecedor = db.Find<Fornecedor>(id);
+                if(fornecedor  == null)
+                    return Problem(detail: "não foi encontrado fornecedor de id: " + id, statusCode: 500);
                 if (!name.IsNullOrEmpty())
                     fornecedor.Nome = name;
                 if(!email.IsNullOrEmpty())
@@ -132,9 +134,9 @@ namespace Playmove.Controllers
             }
             if (result <= 0)
             {
-                return Problem(detail: "não foi possível atualizar registro de id: "+id, statusCode: 500);
+                return Problem(detail: "não foi possível atualizar fornecedor de id: "+id, statusCode: 500);
             }
-            return Ok("fornecedor de id "+id+" atualizado");
+            return NoContent();
         }
 
         /// <summary>
@@ -142,10 +144,10 @@ namespace Playmove.Controllers
         /// </summary>
         /// <param name="id">Id do fornecedor a ser deletado</param>
         /// <returns>Confirmação de exclusão do fornecedor</returns>
-        /// <response code="200">Fornecedor deletado</response>
+        /// <response code="204">Fornecedor deletado</response>
         /// <response code="500">Erro ao acessar o banco de dados</response>
         [HttpDelete]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [Route("fornecedores/{id}")]
         public IActionResult DeleteFornecedor(int id)
@@ -162,9 +164,9 @@ namespace Playmove.Controllers
             }
             if (result <= 0)
             {
-                return Problem(detail: "não foi possível deletar registro de id: " + id, statusCode: 500);
+                return Problem(detail: "não foi possível deletar fornecedor de id: " + id, statusCode: 500);
             }
-            return Ok("fornecedor de id " + id + " deletado");
+            return NoContent();
         }
     }
 }
